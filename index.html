@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <div class="fundo">
+            <h1>Felipe Calc</h1>
+            <div class="calculadora">
+
+                <h1>calculadora</h1>
+
+                <p id="resultado"></p>
+                <div class="botao__container">
+                    <div class="botao"><button class="botao__unico" onclick="limpar()">C</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="back()">
+                            < </button>
+                    </div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('/')">/</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('*')">X</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('7')">7</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('8')">8</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('9')">9</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('-')">-</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('4')">4</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('5')">5</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('6')">6</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('+')">+</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('1')">1</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('2')">2</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('3')">3</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="calcular()">=</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('0')">0</button></div>
+                    <div class="botao"><button class="botao__unico" onclick="inserir('.')">.</button></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
